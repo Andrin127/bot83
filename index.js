@@ -54,7 +54,7 @@ const _level = JSON.parse(fs.readFileSync('./database/json/level.json'))
 /******BEGIN OF MENU INPUT******/
 const { help } = require('./src/help')
 const { logomaker } = require('./database/menu/logomaker')
-const { nabutomenu } = require('./src/nabutomenu')
+const { andrinmenu } = require('./src/andrinmenu')
 const { menuadmin } = require('./src/menuadmin')
 const { nsfwmenu } = require('./src/nsfwmenu')
 const { mediamenu } = require('./database/menu/mediamenu')
@@ -70,7 +70,6 @@ const { stalkmenu } = require('./database/menu/stalkmenu')
 const { wibumenu } = require('./database/menu/wibumenu')
 const { funmenu } = require('./database/menu/funmenu')
 const { informationmenu } = require('./database/menu/informationmenu')
-const { 18+menu } require('./database/menu/18+menu')
 const { ownermenu } require('./database/menu/ownermenu')
 const { othermenu } require('./database/menu/othermenu')
 /******END OF MENU INPUT******/
@@ -356,7 +355,7 @@ case 'timer':
                 case 'bahasa':
 		client.sendMessage(from, bahasa(prefix, sender), text, {quoted: mek})
 				break
-				case 'nabutomenu':
+				case 'andrinmenu':
 					client.sendMessage(from, toinmenu(prefix, sender), text, {quoted: mek})
 							break
 							case 'menuadmin':
