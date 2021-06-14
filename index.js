@@ -70,7 +70,7 @@ const { stalkmenu } = require('./database/menu/stalkmenu')
 const { wibumenu } = require('./database/menu/wibumenu')
 const { funmenu } = require('./database/menu/funmenu')
 const { informationmenu } = require('./database/menu/informationmenu')
-const { ownermenu } require('./database/menu/ownermenu')
+/*const { ownermenu } require('.database/menu/ownermenu')
 const { othermenu } require('./database/menu/othermenu')
 /******END OF MENU INPUT******/
 
